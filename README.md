@@ -26,7 +26,7 @@ css-to-enum -i stylesheet.css -o types.d.ts -e Styles
 
 ```
 export enum Styles {
-	'red' = 'red',
-	'blueBackground' = 'blue-background'
+  'red' = 'red',
+  'blueBackground' = 'blue-background'
 }
 ```
