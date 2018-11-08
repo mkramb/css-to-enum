@@ -1,13 +1,14 @@
-# css-to-typings
+# css-to-enum
 
 ```
-npm install css-to-typings -g
+npm install css-to-enum -g
 ```
 
 ### Usage
 
 ```
-css-to-typings -i stylesheet.css -o types.d.ts
+css-to-enum -i stylesheet.css -o types.d.ts
+css-to-enum -i stylesheet.css -o types.d.ts -e Styles
 ```
 
 ### Input
