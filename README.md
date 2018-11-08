@@ -9,6 +9,7 @@ npm install css-to-enum -g
 ```
 css-to-enum -i stylesheet.css -o types.d.ts
 css-to-enum -i stylesheet.css -o types.d.ts -e Styles
+css-to-enum --help
 ```
 
 ### Input

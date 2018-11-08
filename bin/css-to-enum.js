@@ -6,9 +6,9 @@ const main = require("../lib/main");
 
 program
   .version(package.version)
-  .option("-i, --input <n>", "Input Styesheet file")
-  .option("-o, --output <n>", "Ouput TypeScript Enum")
-  .option("-e, --enum <n>", "TypeScript Enum name", "Styles")
+  .option("-i, --input <n>", "input Styesheet file")
+  .option("-o, --output <n>", "ouput TypeScript Enum")
+  .option("-e, --enum <n>", "typeScript Enum name", "Styles")
   .parse(process.argv);
 
 if (program.input && program.output) {
