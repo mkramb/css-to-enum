@@ -7,8 +7,8 @@ npm install css-to-enum -g
 ### Usage
 
 ```
-css-to-enum -i stylesheet.css -o types.d.ts
-css-to-enum -i stylesheet.css -o types.d.ts -e Styles
+css-to-enum -i stylesheet.css -o enum.ts
+css-to-enum -i stylesheet.css -o enum.ts -e Styles
 css-to-enum --help
 ```
 
